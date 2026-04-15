@@ -25,7 +25,7 @@ Open your terminal in the file directory.\
 Run the Streamlit server:\
 ` streamlit run news_recommender_app.py `\
 Fetch News: Use the sidebar to select your sources and click "Fetch Latest News."\
-Search: Enter a topic (e.g., "SpaceX launch" or "Global Economy") to see ranked matches.\
+Search: Enter a topic (e.g., "SpaceX launch" or "Global Economy") to see ranked matches.
 
 ## How it Works
 - Ingestion: The app visits multiple URLs per news source and extracts anchor tags with substantial text.
