@@ -1,4 +1,4 @@
-# NewsRadar — Smart News Finder
+# NewsRadar: Smart News Finder
 NewsRadar is a high-performance Streamlit dashboard designed to aggregate, index, and rank news articles dynamically. It bridges the gap between raw web scraping and intelligent information retrieval.
 
 ## Key Features
