@@ -17,7 +17,7 @@ NLP: nltk (Stopword removal)
 
 ## Prerequisites
 Before running the app, ensure you have Python installed and the necessary NLTK corpora through cmd:
-pip install streamlit requests beautifulsoup4 pandas scikit-learn nltk
+` pip install streamlit requests beautifulsoup4 pandas scikit-learn nltk
 
 ## How to Run
 Clone this repository or save the code to a file named news_recommender_app.py.
