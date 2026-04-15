@@ -16,16 +16,16 @@ NewsRadar is a high-performance Streamlit dashboard designed to aggregate, index
 - NLP: nltk (Stopword removal)
 
 ## Prerequisites
-Before running the app, ensure you have Python installed and the necessary NLTK corpora through cmd:
+Before running the app, ensure you have Python installed and the necessary NLTK corpora through cmd:\
 ` pip install streamlit requests beautifulsoup4 pandas scikit-learn nltk `
 
 ## How to Run
-Clone this repository or save the code to a file named news_recommender_app.py.
-Open your terminal in the file directory.
-Run the Streamlit server:
-` streamlit run news_recommender_app.py `
-Fetch News: Use the sidebar to select your sources and click "Fetch Latest News."
-Search: Enter a topic (e.g., "SpaceX launch" or "Global Economy") to see ranked matches.
+Clone this repository or save the code to a file named news_recommender_app.py.\
+Open your terminal in the file directory.\
+Run the Streamlit server:\
+` streamlit run news_recommender_app.py `\
+Fetch News: Use the sidebar to select your sources and click "Fetch Latest News."\
+Search: Enter a topic (e.g., "SpaceX launch" or "Global Economy") to see ranked matches.\
 
 ## How it Works
 - Ingestion: The app visits multiple URLs per news source and extracts anchor tags with substantial text.
